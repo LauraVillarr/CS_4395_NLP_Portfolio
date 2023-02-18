@@ -32,3 +32,14 @@ What I Learned/Reviewed:
 
 In this assignment, I learned how to code a simple program using Python, as I had never used Python prior to this assignment. I also reviewed how to do simple regex expressions to recognize specific types of strings. Finally, I learned how to do sysarg in Python as well as what a pickle is
 and how to create and read one.
+
+## Assignment 2: Word Guess Game
+A program that utilizes the nltk library to preprocess a dataset. Fetches the top 50 most frequently occurring nouns from the dataset and uses them in a guessing game. For the guessing game, the user is given a set of blanks corresponding to one of the nouns and is prompted to guess a letter. The game ends when either the user has negative points for too many incorrect guesses or if they type in a sentinel value.
+
+[Link to open python file](Homework2_lmv180001.py)
+
+## How to run the program
+1. Create a new project (I used Pycharm, but you can use any IDE)
+2. download [this data file](anat19.txt) and save it in the same folder as the python program (Note: I did not create the data file, it was provided to me for the assignment)
+4. If using Pycharm, edit the configurations of the python file and in the **Parameters** section type **anat19.txt**
+5. Run the program
