@@ -38,7 +38,7 @@ A program that utilizes the nltk library to preprocess a dataset. Fetches the to
 
 [Link to open python file](Homework2_lmv180001.py)
 
-## How to run the program
+### How to run the program
 1. Create a new project (I used Pycharm, but you can use any IDE)
 2. download [this data file](anat19.txt) and save it in the same folder as the python program (Note: I did not create the data file, it was provided to me for the assignment)
 4. If using Pycharm, edit the configurations of the python file and in the **Parameters** section type **anat19.txt**
