@@ -43,3 +43,8 @@ A program that utilizes the nltk library to preprocess a dataset. Fetches the to
 2. download [this data file](anat19.txt) and save it in the same folder as the python program (Note: I did not create the data file, it was provided to me for the assignment)
 4. If using Pycharm, edit the configurations of the python file and in the **Parameters** section type **anat19.txt**
 5. Run the program
+
+## Assignment 3: WordNet
+A Python notebook that goes through different functionalities of WordNet, SentiWordNet, and the concept of collocations.
+
+Here is the [link to a PDF of the notebook](WordNet.ipynb-Colaboratory.pdf)
