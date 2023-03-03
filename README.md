@@ -86,3 +86,8 @@ Here is the [link to the N-gram narrative](Ngram_Narrative_lmv180001.pdf)
 
 4. Save these downloaded files in the same folder as the python program
 5. Run the program (running the program will result in a file named MyLangIdSolutions.sol to be created)
+
+## Assignment 5: Parsing Sentences
+A pdf document performing the 3 types of parsing (PSG, dependency, and SRL) on an example sentence and analyzing each type of parse
+
+[Link to pdf](Sentence_Parsing_lmv180001.pdf)
