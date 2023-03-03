@@ -48,3 +48,41 @@ A program that utilizes the nltk library to preprocess a dataset. Fetches the to
 A Python notebook that goes through different functionalities of WordNet, SentiWordNet, and the concept of collocations.
 
 Here is the [link to a PDF of the notebook](WordNet.ipynb-Colaboratory.pdf)
+
+## Assignment 4: N-gram Language Model
+This assignment consists of 2 programs. The first program reads in test data in English, French, and Italian, creates unigram and bigram
+dictionaries for them, and then pickles those 6 dictionaries to be used in program 2. The second program unpickles the 6 dictionaries,
+then reads in our test data (LangId.test) and determines for each sentence the probability that the sentence is in English, French or Italian based off of our language models. Then the program prints out the accuracy of our guesses by comparing our guesses to the actual solutions (the actual solutions are held in a file named LangId.sol)
+
+This assignment also has a narrative, describing what N-grams are, where they are used, and how they are used to create language models.
+
+[Link to open program 1](Homework4_program1_lmv180001.py)
+
+[Link to open program 2](Homework4_program2_lmv180001.py)
+
+Here is the [link to the N-gram narrative](Ngram_Narrative_lmv180001.pdf)
+
+### How to run program 1
+1. Create a new project (I used Pycharm, but you can use any IDE) and download program 1
+2. Download the following files (these files I did not create, they were provided to me):
+
+[LangId.train.English](LangId.train.English)
+
+[LangId.train.French](LangId.train.French)
+
+[LangId.train.Italian](LangId.train.Italian)
+
+3. Save these downloaded files in the same folder as the python program
+4. Run the program (this will take a while to complete as it takes a while to split all 3 files into bigrams and unigrams)
+
+### How to run program 2
+1. Create a new project (I used Pycharm, but you can use any IDE) and download program 2
+2. Take all 6 of the .pickle files generated from program 1 and place them in the same folder where you are storing program 2
+3. Download the following files (these files I did not create, they were provided to me):
+
+[LangId.test](LangId.test)
+
+[LangId.sol](LangId.sol)
+
+4. Save these downloaded files in the same folder as the python program
+5. Run the program (running the program will result in a file named MyLangIdSolutions.sol to be created)
