@@ -104,7 +104,7 @@ could be made using this corpus of information.
 
 [Link to open web crawler document](CS4395_Web_Crawler_Project.pdf)
 
-## how to run program
+### How to run program
 1. Create a new project (I used Pycharm, but you can use any IDE) and download program 2
 2. place the web crawler code in the project and run it. The program will produce 2 sets of 15 files that contain scraped data and cleaned data.
 The program will also produce a pickle file that contains the knowledge base produced from the data
