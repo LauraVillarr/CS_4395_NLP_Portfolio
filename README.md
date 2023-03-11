@@ -91,3 +91,20 @@ Here is the [link to the N-gram narrative](Ngram_Narrative_lmv180001.pdf)
 A pdf document performing the 3 types of parsing (PSG, dependency, and SRL) on an example sentence and analyzing each type of parse
 
 [Link to pdf](Sentence_Parsing_lmv180001.pdf)
+
+## Assignment 6: Web Crawler
+This assignment creates a web crawler and grabs 15 relevant links given a starting link. In this example, I decided to use bowling for
+my topic. Using the scraped data, the most relevant words are determined and are used to help create a knowledge base that can be used
+for a chatbot.
+
+This assignment also has a document, describing my process in creating the knowledge base as well as an example conversation that
+could be made using this corpus of information.
+
+[Link to open web crawler python code](Homework6_WebCrawler_lmv180001.py)
+
+[Link to open web crawler document](CS4395_Web_Crawler_Project.pdf)
+
+## how to run program
+1. Create a new project (I used Pycharm, but you can use any IDE) and download program 2
+2. place the web crawler code in the project and run it. The program will produce 2 sets of 15 files that contain scraped data and cleaned data.
+The program will also produce a pickle file that contains the knowledge base produced from the data
