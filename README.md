@@ -108,3 +108,11 @@ could be made using this corpus of information.
 1. Create a new project (I used Pycharm, but you can use any IDE) and download program 2
 2. place the web crawler code in the project and run it. The program will produce 2 sets of 15 files that contain scraped data and cleaned data.
 The program will also produce a pickle file that contains the knowledge base produced from the data
+
+## Summary on Selected ACL Paper
+I selected the paper "MISC: A Mixed Strategy-Aware Model integrating COMET for Emotional Support Conversation" from the 2022 
+"Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)" and summarized it.
+
+[Link to paper](https://aclanthology.org/2022.acl-long.25/)
+
+[Link to my summary pdf](Summary_on_Selected_ACL_Paper_lmv180001.pdf)
