@@ -116,3 +116,10 @@ I selected the paper "MISC: A Mixed Strategy-Aware Model integrating COMET for E
 [Link to paper](https://aclanthology.org/2022.acl-long.25/)
 
 [Link to my summary pdf](Summary_on_Selected_ACL_Paper_lmv180001.pdf)
+
+## Text Classification 1
+For this assignment, I picked the "IMDB dataset" from Kaggle, took the first 5000 elements from the dataset, and ran the dataset on 3 types of models: Naive Bayes, Logistic Regression, and Neural Networks.
+
+[Link to Kaggle Dataset](https://www.kaggle.com/datasets/yasserh/imdb-movie-ratings-sentiment-analysis)
+
+[Link to classification pdf](Text_Classification_1_lmv180001.ipynb-Colaboratory.pdf)
