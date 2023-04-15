@@ -105,7 +105,7 @@ could be made using this corpus of information.
 [Link to open web crawler document](CS4395_Web_Crawler_Project.pdf)
 
 ### How to run program
-1. Create a new project (I used Pycharm, but you can use any IDE) and download program 2
+1. Create a new project (I used Pycharm, but you can use any IDE) and download the python code.
 2. place the web crawler code in the project and run it. The program will produce 2 sets of 15 files that contain scraped data and cleaned data.
 The program will also produce a pickle file that contains the knowledge base produced from the data
 
@@ -123,3 +123,29 @@ For this assignment, I picked the "IMDB dataset" from Kaggle, took the first 500
 [Link to Kaggle Dataset](https://www.kaggle.com/datasets/yasserh/imdb-movie-ratings-sentiment-analysis)
 
 [Link to classification pdf](Text_Classification_1_lmv180001.ipynb-Colaboratory.pdf)
+
+## Chatbot Project
+This chatbot collects the first name of the user and, given user input on what they want, picks a recipe that most closely matches what they wanted. On subsequent startups, the chatbot will remember the user based on their first name and will recommend a recipe to them based on their previous searches and will not recommend recipes that the user has seen recently.
+
+The knowledge base that I created is also provided. It contains 50 recipes scraped from the website based.cooking, with tags manually inputted by me.
+
+For completeness sake, the code for the web crawler is provided and is similar in some ways to the previous web crawler, but it writes the data to a csv file. YOU WILL NOT NEED TO RUN THIS WEBCRAWLER IN ORDER TO RUN MY CHATBOT. The csv file outputted by the web crawler will not have the tags that I inputted, and the data will not be clean as I had done some manual cleaning to it. To run the chatbot, please use the provided file recipes_knowledge_base.csv
+
+A report about my chatbot is provided, going more in detail about how I made my chatbot and details about the knowledge base.
+
+[Link to chatbot code](chatbot_lmv180001.py)
+
+[Link to knowledge base used by chatbot](recipes_knowledge_base.csv)
+
+[Link to report about chatbot](Chatbot_Report_lmv180001.pdf)
+
+Do not use the provided web crawler to generate the knowledge base for the chatbot, as the raw generated file won't have everything it needs.
+
+[Link to web crawler](chatbot_data_collection_lmv180001.py)
+
+### How to run the program
+1. Create a new project (I used Pycharm, but you can use any IDE) and download the chatbot python file.
+2. Place the chatbot file into the newly created project
+3. Download the recipes_knowledge_base.csv file and place it in the same area where you placed the python file.
+4. Run the program. Note that while the program is being run, user_model.csv is generated, which contains information that the user provides to the chatbot.
+5. If you want to test the user_model, run the program again under the same name. The chatbot will recommend a recipe based on what is in the user model.
