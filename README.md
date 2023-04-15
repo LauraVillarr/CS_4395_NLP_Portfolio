@@ -147,5 +147,6 @@ Do not use the provided web crawler to generate the knowledge base for the chatb
 1. Create a new project (I used Pycharm, but you can use any IDE) and download the chatbot python file.
 2. Place the chatbot file into the newly created project
 3. Download the recipes_knowledge_base.csv file and place it in the same area where you placed the python file.
-4. Run the program. Note that while the program is being run, user_model.csv is generated, which contains information that the user provides to the chatbot.
-5. If you want to test the user_model, run the program again under the same name. The chatbot will recommend a recipe based on what is in the user model.
+4. Download all the packages in the import section
+5. Run the program. Note that after the program is run, user_model.csv is generated. That file contains information that the user provides to the chatbot.
+6. If you want to test the user_model, run the program again under the same name. The chatbot will recommend a recipe based on what is in the user model.
