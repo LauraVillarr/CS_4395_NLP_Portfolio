@@ -150,3 +150,12 @@ Do not use the provided web crawler to generate the knowledge base for the chatb
 4. Download all the packages in the import section
 5. Run the program. Note that after the program is run, user_model.csv is generated. That file contains information that the user provides to the chatbot.
 6. If you want to test the user_model, run the program again under the same name. The chatbot will recommend a recipe based on what is in the user model.
+
+## Text Classification 2
+For this assignment, I picked the "Text Emotion Recognition" dataset from Kaggle, took the first 110,000 elements from the dataset, and ran the dataset on a dense sequential model, 2 different architectures (RNN and GRU) and with a custom embedding and the GloVe embedding to see whether it could determine whether a piece of text was negative or positive.
+
+[Link to Kaggle Dataset](https://www.kaggle.com/datasets/shreejitcheela/text-emotion-recognition?select=test.csv)
+
+[Link to the source I used to get the GloVe embedding](https://www.kaggle.com/datasets/rtatman/glove-global-vectors-for-word-representation)
+
+[Link to classification pdf](Text_Classification_2_lmv180001.ipynb%20-%20Colaboratory.pdf)
