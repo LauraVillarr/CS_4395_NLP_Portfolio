@@ -3,6 +3,13 @@
 # CS_4395_NLP_Portfolio
 Coursework and Projects from the UT Dallas Human Language Technologies course
 
+## Summary
+I have learned a lot about NLP during my experience doing these projects. I definitely think that this will be useful to me in my future career.
+I learned the basics of parsing and analyzing text to get the important information, the basics of scraping the web for data, and the planning
+involved in creating an interactive program like a chatbot. As someone who is very interested in web and mobile development, I find the chatbot
+aspect quite useful as a chatbot can enhance the functionality of a website. I also found it interesting learning about training models and
+deep learning, as those were concepts that I had heard about before but never fully understood until I had done it myself. I will be keeping up with new and interesting use cases for artificial intelligence from companies, as its interesting to see the sheer amount of situations where AI can be used to enhance a situation, as well as pay attention to what should be done to use it ethically. If you like the work you see below or on my github, feel free to contact me with any opportunities using the contact information found on my resume in the [Skills](skills.md) page. Thank you!
+
 ## Assignment 0: Overview_of_NLP
 A document covering the general idea of NLP
 
