@@ -1,5 +1,5 @@
 # Resume
-<iframe src="Laura_Villarreal.pdf" style="width:400px; height:600px;" frameborder="0"></iframe>
+<iframe src="Laura_Villarreal.pdf" style="width:500px; height:700px;" frameborder="0"></iframe>
 
 
 ## Relevant skills
